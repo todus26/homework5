@@ -27,7 +27,7 @@ int main() {
     printf("행렬 B의 열의 개수를 입력하시오. : ");
     scanf("%d", &colsB);
 
-    // 행렬 덧셈과 뺄셈이 가능한지 확인
+    // 행렬 덧셈과 뺄셈이 가능한지 확인.
     if (rowsA != rowsB || colsA != colsB) {
         printf("행렬 덧셈과 뺄셈이 불가능합니다. 프로그램을 종료합니다.\n");
         return 0;
