@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-// 함수 원형 선언
+// 함수 원형 선언.
 int** create_Matrix(int rows, int cols);
 void fill_Matrix(int** matrix, int rows, int cols);
 void Print_Matrix(int** matrix, int rows, int cols);
