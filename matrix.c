@@ -13,7 +13,7 @@ int Multiply_Matrix(int** matrixA, int** matrixB, int** result, int rowsA, int c
 void free_Matrix(int** matrix, int rows);
 
 int main() {
-    int rowsA, colsA, rowsB, colsB;  // 행렬 A와 B의 행과 열의 개수
+    int rowsA, colsA, rowsB, colsB;  // 행렬 A와 B의 행과 열의 개수.
 
     printf("----------[정새연] [2023041074]----------\n");
 
